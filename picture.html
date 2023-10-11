@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>DNOO37 | BOOTSTRAP 5.3.2</title>
+        <!--El CSS de Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+        <!--Que luego puedo complementar-->
+        <style>
+            .active {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body class="bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="backdrop-filter: sepia(90%)">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" class="mb-2" fill="pink" viewBox="0 0 100 100">
+<title>49_Landslide_v15</title>
+<path d="M85.72,82.81v10.7H5.53V11.22h5l6.76,9.22A2,2,0,0,1,18.81,20a2.76,2.76,0,0,1,2.71,2.83,2.64,2.64,0,0,1-2.09,2.59l1.84,6.51h.62a2.65,2.65,0,0,1,2.7,2.71,2.77,2.77,0,0,1-1.84,2.58L25,44.68a2.41,2.41,0,0,1,2.09-1.11,2.76,2.76,0,0,1,2.71,2.83,2.73,2.73,0,0,1-2.71,2.7h-.24c.73,1.11,2,2.71,3.44,4.56a2.72,2.72,0,0,1,5.29.86A2.62,2.62,0,0,1,33,57.22c.61.86,1.23,1.6,1.84,2.34a5.6,5.6,0,0,1,4.31-2.09,5.46,5.46,0,0,1,5.41,5.41,5.54,5.54,0,0,1-2.83,4.8,16.41,16.41,0,0,0,3.69,3.07,4.28,4.28,0,0,1-.12-1.23,5.41,5.41,0,1,1,9.47,3.69h4.06a2.24,2.24,0,0,1-.13-1,5.38,5.38,0,0,1,5.41-5.41,5.3,5.3,0,0,1,5.42,5.41,5.6,5.6,0,0,1-.62,2.46c1.48.49,3.08,1,4.68,1.6a8.87,8.87,0,0,1-.86-4.06,10.82,10.82,0,1,1,13,10.58ZM28.16,28.93a2.71,2.71,0,1,1,2.7,2.71A2.73,2.73,0,0,1,28.16,28.93Zm5.78,7.26a2.71,2.71,0,1,1-2.71,2.7A2.73,2.73,0,0,1,33.94,36.19Zm5.41,10a2.71,2.71,0,1,1,2.71,2.71A2.73,2.73,0,0,1,39.35,46.15Zm2.09-13.28a2.71,2.71,0,1,1,2.71,2.7A2.73,2.73,0,0,1,41.44,32.87Zm3.94,21.89a5.41,5.41,0,1,1,5.41,5.41A5.46,5.46,0,0,1,45.38,54.76Zm5.41-15a2.71,2.71,0,1,1,2.71,2.7A2.73,2.73,0,0,1,50.79,39.76Zm6.89,7.74a2.71,2.71,0,1,1,2.7,2.71A2.75,2.75,0,0,1,57.68,47.5Zm4.18,10.09a5.46,5.46,0,0,1,5.41-5.41,5.41,5.41,0,1,1,0,10.82A5.46,5.46,0,0,1,61.86,57.59Zm15-6a5.41,5.41,0,1,1,10.82,0,5.41,5.41,0,1,1-10.82,0Z"></path>
+</svg>DAVID FERNÁNDEZ</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">INDEX</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="integrantes.html">INTEGRANTES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="openweather.html">OPEN WEATHER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="picture.html">PICTURE OF THE DAY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sismico.html">SÍSMICO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="container my-5">
+            <div class="row" style="min-height: 80vh;">
+                <div class="align-self-center text-white" id="texto"></div>
+            </div>
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+        <script>
+             async function foto(x) {
+                const url = "https://api.nasa.gov/planetary/apod?api_key=";
+                //¡Por favor, cambie la API Key que sigue!
+                const key = "DKHJXfJQGF6CjhHapGaOVq5s5wg9q84NKNrAuJ9c";
+                //La fecha se cambia más abajo, cuando ejecuta función, con un string YYYY-MM-DD
+                const fecha = x;
+                const data = await fetch(url + key + "&date=" + fecha);
+                const datos = await data.json();
+                console.log(datos);
+                const cuerpo = document.body;
+                const navegador = document.querySelector("nav");
+                navegador.classList.remove("bg-body-tertiary","navbar-light");
+                navegador.classList.add("navbar-dark");
+                cuerpo.removeAttribute("class");
+                cuerpo.style.background = "white url('"+datos.hdurl+"') center top repeat-y";
+                cuerpo.style.backgroundSize = "150% auto";
+                document.querySelector("#texto").innerHTML = `<span class="fw-bolder">${x}</span> &rarr; ${datos.explanation}`
+            }
+            foto('2002-12-13').catch((error) => console.error(error));
+        </script>
+    </body>
+</html>
